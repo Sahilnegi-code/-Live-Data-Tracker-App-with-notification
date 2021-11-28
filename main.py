@@ -124,7 +124,7 @@ def sent(userEmail):
         ob = s.SMTP("smtp.gmail.com",587);
         ob.starttls();
         # // put your own password and gmail so that you can check
-        ob.login("sahilnegi.pang@gmail.com","Sahilnegi@123"); 
+        ob.login(put your own gmail id, gmail password); 
         # // put your own password and gmail so that you can check
         subject = "Covid-19";
         body = get_corona_details_of_india();
